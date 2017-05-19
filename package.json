@@ -1,0 +1,33 @@
+{
+  "name": "meanauth",
+  "version": "1.0.0",
+  "description": "this is a practice mean auth to learn mean",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app"
+  },
+  "dependencies":{
+	"express":"*",
+	"mongoose":"*",
+	"bcryptjs":"*",
+	"cors":"*",
+	"jsonwebtoken":"*",
+	"body-parser":"*",
+  "passport":"*",
+	"passport-jwt":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artvegas/meanAuthPractice.git"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "Aritra Nirmal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artvegas/meanAuthPractice/issues"
+  },
+  "homepage": "https://github.com/artvegas/meanAuthPractice#readme"
+}
